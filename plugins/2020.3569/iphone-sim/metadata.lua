@@ -3,8 +3,8 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { },
-		frameworks = { },
+		staticLibs = { 'APDAppLovinAdapter', },
+		frameworks = { 'AppLovinSDK', },
 		frameworksOptional = {},
 	},
 }
